@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user=scalable=0" />
+    <title>MediCenter</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/tamplate.css">
+    <script type="text/javascript">
+    window.onload = function(){
+        document.querySelector(".menumobile").addEventListener("click", function(){
+            if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                document.querySelector(".menu nav ul").style.display = 'none';
+            }else{
+                document.querySelector(".menu nav ul").style.display = 'flex';
+            }
+        });
+    };
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="assets/image/logo.png"></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menumobile">
+                        <div class="linha"></div>
+                        <div class="linha"></div>
+                        <div class="linha"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">MENU</a></li>
+                        <li><a href="">MENU</a></li>
+                        <li><a href="">MENU</a></li>
+                        <li><a href="">MENU</a></li>
+                        <li><a href="">MENU</a></li>
+                        <li><a href="">MENU</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container colunm">
+            <div class="banner_headiline">
+                <h1>Clína de saúde</h1>
+                <h2>Priorize sua saúde todos os dias, pois ela é o alicerce da sua felicidade e realização. Faça escolhas conscientes</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Exercício físico</div>
+                    <div class="banner_desc">A prática regular de exercícios físicos traz uma série de benefícios para a saúde, tanto física quanto mental. Aqui estão alguns tipos de exercícios que você pode considerar incorporar à sua rotina para promover um estilo de vida saudável:</div>
+                    <a href="">Leia mais</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Alimentação saudável</div>
+                    <div class="banner_desc">
+                        Adotar uma alimentação saudável é fundamental para manter o bem-estar físico e mental. Aqui estão algumas diretrizes gerais para uma alimentação equilibrada:</div>
+                    <a href="">Leia mais</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Horas de atendimento</div>
+                    <div class="horas">
+                        <p>Segunda - Sexta</p><p>8:00 - 17:00</p>
+                    </div>
+                    <div class="horas">
+                        <p>Sabado</p><p>9:30 - 17:30</p>
+                    </div>
+                    <div class="horas">
+                        <p>Domingo</p><p>9:30 - 15:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_texto">Notícias</div>
+                        <div class="widget_title_barrinha"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_imagem">
+                                    <img src="assets/image/medico.jpeg">
+                                </div>
+                                <div class="new_title">
+                                    Cuidados com a saúde
+                                </div>
+                                <div class="news_resume">
+                                    Cuidar da saúde é um compromisso valioso que devemos cultivar 
+                                    em nossas vidas diárias. Ao adotarmos hábitos saudáveis, 
+                                    proporcionamos ao nosso corpo e mente a base sólida 
+                                    para uma vida plena e equilibrada.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">13 DEC 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_imagem">
+                                    <img src="assets/image/exercicios.jpg">
+                                </div>
+                                <div class="new_title">
+                                    Exercício físico
+                                </div>
+                                <div class="news_resume">
+                                    Melhora da Saúde Mental: Os exercícios liberam endorfinas, neurotransmissores que proporcionam uma sensação de bem-estar e ajudam a aliviar o estresse, a ansiedade e a depressão. A atividade física também melhora a qualidade do sono e a função cognitiva.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">14 DEC 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_imagem">
+                                    <img src="assets/image/alimentação.jpg">
+                                </div>
+                                <div class="new_title">
+                                    Alimentação saudável
+                                </div>
+                                <div class="news_resume">
+                                    Variedade de Alimentos: Consuma uma ampla variedade de alimentos para garantir a ingestão de todos os nutrientes essenciais. Inclua frutas, vegetais, grãos integrais, proteínas magras e produtos lácteos com baixo teor de gordura.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">15 DEC 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_imagem">
+                                    <img src="assets/image/socialização.jpg">
+                                </div>
+                                <div class="new_title">
+                                    Socialização e Bem-Estar Social
+                                </div>
+                                <div class="news_resume">
+                                    Participar de atividades físicas em grupo, como esportes coletivos ou aulas de fitness, pode promover a socialização, melhorando a saúde mental e emocional.
+                                </div>
+                            </a>
+                        </article>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_texto">Departamento</div>
+                        <div class="widget_title_barrinha"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="Departaments">
+                            <div class="div1"></div>
+                            <div class="div2"></div>
+                            <div class="div3"></div>
+                            <div class="div4"></div>
+                            <div class="div5"></div>
+                            <div class="div6"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_texto">Contatos para apoio</div>
+                        <div class="widget_title_barrinha"></div>
+                    </div>
+                    <div class="widget_body">
+                        <p class="agendamentos">Lista de contatos para apoio e agendamento</p>
+                        <div class="contatotel">
+                            <p>Telefone: <strong>(99)999999999</strong></p>
+                        </div>
+                        <div class="contato">
+                            <p>E-mail: <a href="">teste@teste.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexcolumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <a href="">
+                        Saúde
+                    </a>
+                </div>
+                <div class="fm_2">
+                    <a href="">
+                        Alimentação
+                    </a>
+                </div>
+                <div class="fm_3">
+                    <a href="">
+                        Exercícios
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_texto">Medicenter Clinic</div>
+                            <div class="widget_title_barrinha"></div>
+                        </div>
+                        <div class="widget_body">
+                            Uma clínica médica é uma instalação de saúde onde profissionais médicos oferecem uma variedade de serviços para diagnóstico, tratamento e prevenção de doenças. Essas clínicas podem variar em tamanho e especialidade, mas muitas compartilham características comuns.
+                        </div>
+                    </div>    
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_texto">Saúde</div>
+                            <div class="widget_title_barrinha"></div>
+                        </div>
+                        <div class="widget_body">
+                            Em cada escolha que fazemos, estamos moldando o nosso bem-estar. Lembre-se de que a saúde é um precioso presente que devemos cuidar com carinho. Cultive hábitos saudáveis.
+                        </div>
+                    </div>   
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_texto">Motivação</div>
+                            <div class="widget_title_barrinha"></div>
+                        </div>
+                        <div class="widget_body">
+                            Você é o guardião do seu templo, o curador do seu ser. Cada escolha que faz em prol da sua saúde é um investimento no seu bem-estar futuro. Lembre-se de que o caminho para a saúde não é uma corrida, mas uma jornada constante. Cada passo, por menor que seja, conta. 
+                        </div>
+                    </div>   
+                </div> 
+            </div>
+            <div class="footer_direitos">
+                Coyright - Todos os direitos reservados
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
